@@ -1,0 +1,24 @@
+
+# 02/13/22
+# R script in:
+# The trait coding rule in phenotype space
+# 
+# Jianguo Wang (wangjg36@mail.sysu.edu.cn)
+# 
+
+
+
+# Fig.3a is produced by the software ROIEditor 
+# ROIEditor is downloaded from https://www.mristudio.org/installation.html
+# pictures are generated following:
+# 1. Atlas Sample Images : JHU_MNI_SS/JHU_MNI_SS_T1_ss
+# 2. Load ROI Data/Raw Data and Label Lookup Table/Load Raw ROI Image/JHU_MNI_SS_EvePM_V1.0.dat
+# 2. Load ROI Data/Raw Data and Lable Lookup Table/Load Lable Lookup Table/JhuMniSSEvePMV1.0LabelLookupTable.txt
+# 3. ROI Objects : Hide all
+# 3. ROI Objects : Contour (for focal ROI; Contour is filled by drawing software)
+
+
+
+
+
+
