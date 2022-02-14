@@ -1,12 +1,45 @@
 # UBHDD
 
-
 # 02/13/22
 # R script in:
 # The trait coding rule in phenotype space
 # 
 # Jianguo Wang (wangjg36@mail.sysu.edu.cn)
 # 
+
+
+############### system requirements ######################################
+
+#these codes are custom codes of R/python and can work in various sysmtems.
+
+#based on the memory and time requirements,I have run them in linux/windows10.
+
+#R edition is Microsoft R Open 4.0.2
+
+#python edition is Python 3.9.6
+
+
+############### installation guide #######################################
+
+#the R and python is open-source softwares.
+
+#R packages or python libraries can be installed based on their instructions.
+
+#no software is compiled so no extra installation is needed.
+
+
+############### Demo ######################################################
+
+#the shared scripts are ready to run with only raw data as input;
+
+#the yeast raw data are in the folder /UBHDD/data/yeast
+
+#the brain raw data are available with application to and authorization by UK Biobank.
+
+#the brain trait names and annotation file used in the scripts are in the folder /UBHDD/data/brain
+
+#simulation-related functions are packed to be read to run. Due to the process is not time-consuming, 
+#I have provided the codes to generate the simulation results in the study and demo is not necessary. 
 
 
 ############### /UBHDD/scripts description ################################ 
@@ -49,9 +82,11 @@
 	/yeastFeature.csv is the main features of yeast in this study.
 
 
-############## remarks #########################################################
+############## remarks/instructions for use #########################################################
 
 #the UK Biobank data are not fully shared due to the policy of UK Biobank.
+
+#these scripts are ready to run. To run the scripts, one only needs to set the working directory as the path of UBHDD folder 
 
 #the file/folder paths in these scripts are organized as follows:
 
@@ -110,10 +145,6 @@
 #Based on the organization, one can easily reproduce our results. 
 
 #However,it will be welcom to tell us if you have any question.
-
-
-
-
 
 
 
