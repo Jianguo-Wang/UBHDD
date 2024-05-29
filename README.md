@@ -7,7 +7,7 @@ Jianguo Wang (wangjg36@mail.sysu.edu.cn)
 
 # UBHDD
 
-UBHDD is a Python module for conducting the UBHDD (Uncorrelated Biomass-based Heterosis and Dominance Depletion) algorithm, which is designed for processing phenotype data frames and performing linear learning with uncorrelated features. It produces three output results:
+UBHDD is a Python module for conducting the UBHDD (uncorrelation-based high-dimensional dependence) algorithm, which is designed for processing phenomic data and performing linear learning with uncorrelated features. It produces three output results:
 
 1. `UBHDD_R2_R2SE_coef.csv`: Contains R-squared values, standard errors of R-squared, and coefficients for each trait in separate rows.
 2. `PG.csv`: A file containing the genetic values for each trait.
@@ -37,8 +37,8 @@ The `run_ubhdd` function takes the following arguments:
 
 - `'pheno_space.csv'` is the path to your phenotype data file in CSV format.
 - `output_folder="output"` specifies the folder where the output files will be saved.
-- `alpha=0.005` sets the significance level for the algorithm.
-- `pcMatCutoff=None` indicates that no cutoff is applied for principal component analysis.
+- `alpha=0.005` sets the significance level for determining the uncorrelation.
+- `pcMatCutoff=None` set the uncorrelation threshold directly.
 - `n_processes=2` specifies the number of parallel processes to use for computation.
 
 After running the `run_ubhdd` function, the following output files will be generated in the specified `output` folder:
