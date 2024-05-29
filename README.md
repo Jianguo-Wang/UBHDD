@@ -15,10 +15,15 @@ UBHDD is a Python module for conducting the UBHDD (Uncorrelated Biomass-based He
 
 ## Installation
 
-You can install the UBHDD module using pip:
+You can install these libraries using pip:
 
 ```bash
+pip install glmnet
+pip install scipy
+pip install pandas
+pip install numpy
 pip install git+https://github.com/Jianguo-Wang/UBHDD.git
+
 ```
 
 ## Usage
