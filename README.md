@@ -37,7 +37,7 @@ The `run_ubhdd` function takes the following arguments:
 
 - `'pheno_space.csv'` is the path to your phenotype data file in CSV format.
 - `output_folder="output"` specifies the folder where the output files will be saved.
-- `alpha=0.005` sets the significance level for determining the uncorrelation.
+- `alpha=0.005` sets the significance level for determining the uncorrelation threshold.
 - `pcMatCutoff=None` set the uncorrelation threshold directly.
 - `n_processes=2` specifies the number of parallel processes to use for computation.
 
