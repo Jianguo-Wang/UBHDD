@@ -15,7 +15,7 @@ UBHDD is a Python module for conducting the UBHDD (uncorrelation-based high-dime
 
 ## Installation
 
-You can install these libraries using pip:
+You can install UBHDD using pip:
 
 ```bash
 pip install git+https://github.com/Jianguo-Wang/UBHDD.git
