@@ -18,7 +18,7 @@ UBHDD is a Python module for conducting the UBHDD (Uncorrelated Biomass-based He
 You can install the UBHDD module using pip:
 
 ```bash
-pip install git+https://github.com/Jianguo-Wang/UBHDD/UBHDD.git
+pip install git+https://github.com/Jianguo-Wang/UBHDD.git
 ```
 
 ## Usage
